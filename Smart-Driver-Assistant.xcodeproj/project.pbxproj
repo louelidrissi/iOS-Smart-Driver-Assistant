@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		764DC0A92EACBCBD0008DA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764DC08E2EACBCBC0008DA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764DC0952EACBCBC0008DA38;
+			remoteInfo = "Smart-Driver-Assistant";
+		};
+		764DC0B32EACBCBD0008DA38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 764DC08E2EACBCBC0008DA38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 764DC0952EACBCBC0008DA38;
+			remoteInfo = "Smart-Driver-Assistant";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		764DC0962EACBCBC0008DA38 /* Smart-Driver-Assistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Smart-Driver-Assistant.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764DC0A82EACBCBD0008DA38 /* Smart-Driver-AssistantTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart-Driver-AssistantTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		764DC0B22EACBCBD0008DA38 /* Smart-Driver-AssistantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Smart-Driver-AssistantUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		764DC0C62EACC5160008DA38 /* Exceptions for "Smart-Driver-Assistant" folder in "Smart-Driver-Assistant" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 764DC0952EACBCBC0008DA38 /* Smart-Driver-Assistant */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		764DC0982EACBCBC0008DA38 /* Smart-Driver-Assistant */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				764DC0C62EACC5160008DA38 /* Exceptions for "Smart-Driver-Assistant" folder in "Smart-Driver-Assistant" target */,
+			);
+			path = "Smart-Driver-Assistant";
+			sourceTree = "<group>";
+		};
+		764DC0AB2EACBCBD0008DA38 /* Smart-Driver-AssistantTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart-Driver-AssistantTests";
+			sourceTree = "<group>";
+		};
+		764DC0B52EACBCBD0008DA38 /* Smart-Driver-AssistantUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Smart-Driver-AssistantUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		764DC0932EACBCBC0008DA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764DC0A52EACBCBD0008DA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764DC0AF2EACBCBD0008DA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		764DC08D2EACBCBC0008DA38 = {
+			isa = PBXGroup;
+			children = (
+				764DC0982EACBCBC0008DA38 /* Smart-Driver-Assistant */,
+				764DC0AB2EACBCBD0008DA38 /* Smart-Driver-AssistantTests */,
+				764DC0B52EACBCBD0008DA38 /* Smart-Driver-AssistantUITests */,
+				764DC0972EACBCBC0008DA38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		764DC0972EACBCBC0008DA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				764DC0962EACBCBC0008DA38 /* Smart-Driver-Assistant.app */,
+				764DC0A82EACBCBD0008DA38 /* Smart-Driver-AssistantTests.xctest */,
+				764DC0B22EACBCBD0008DA38 /* Smart-Driver-AssistantUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		764DC0952EACBCBC0008DA38 /* Smart-Driver-Assistant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764DC0BC2EACBCBD0008DA38 /* Build configuration list for PBXNativeTarget "Smart-Driver-Assistant" */;
+			buildPhases = (
+				764DC0922EACBCBC0008DA38 /* Sources */,
+				764DC0932EACBCBC0008DA38 /* Frameworks */,
+				764DC0942EACBCBC0008DA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				764DC0982EACBCBC0008DA38 /* Smart-Driver-Assistant */,
+			);
+			name = "Smart-Driver-Assistant";
+			packageProductDependencies = (
+			);
+			productName = "Smart-Driver-Assistant";
+			productReference = 764DC0962EACBCBC0008DA38 /* Smart-Driver-Assistant.app */;
+			productType = "com.apple.product-type.application";
+		};
+		764DC0A72EACBCBD0008DA38 /* Smart-Driver-AssistantTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764DC0BF2EACBCBD0008DA38 /* Build configuration list for PBXNativeTarget "Smart-Driver-AssistantTests" */;
+			buildPhases = (
+				764DC0A42EACBCBD0008DA38 /* Sources */,
+				764DC0A52EACBCBD0008DA38 /* Frameworks */,
+				764DC0A62EACBCBD0008DA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764DC0AA2EACBCBD0008DA38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				764DC0AB2EACBCBD0008DA38 /* Smart-Driver-AssistantTests */,
+			);
+			name = "Smart-Driver-AssistantTests";
+			packageProductDependencies = (
+			);
+			productName = "Smart-Driver-AssistantTests";
+			productReference = 764DC0A82EACBCBD0008DA38 /* Smart-Driver-AssistantTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		764DC0B12EACBCBD0008DA38 /* Smart-Driver-AssistantUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 764DC0C22EACBCBD0008DA38 /* Build configuration list for PBXNativeTarget "Smart-Driver-AssistantUITests" */;
+			buildPhases = (
+				764DC0AE2EACBCBD0008DA38 /* Sources */,
+				764DC0AF2EACBCBD0008DA38 /* Frameworks */,
+				764DC0B02EACBCBD0008DA38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				764DC0B42EACBCBD0008DA38 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				764DC0B52EACBCBD0008DA38 /* Smart-Driver-AssistantUITests */,
+			);
+			name = "Smart-Driver-AssistantUITests";
+			packageProductDependencies = (
+			);
+			productName = "Smart-Driver-AssistantUITests";
+			productReference = 764DC0B22EACBCBD0008DA38 /* Smart-Driver-AssistantUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		764DC08E2EACBCBC0008DA38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					764DC0952EACBCBC0008DA38 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					764DC0A72EACBCBD0008DA38 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 764DC0952EACBCBC0008DA38;
+					};
+					764DC0B12EACBCBD0008DA38 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 764DC0952EACBCBC0008DA38;
+					};
+				};
+			};
+			buildConfigurationList = 764DC0912EACBCBC0008DA38 /* Build configuration list for PBXProject "Smart-Driver-Assistant" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 764DC08D2EACBCBC0008DA38;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 764DC0972EACBCBC0008DA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				764DC0952EACBCBC0008DA38 /* Smart-Driver-Assistant */,
+				764DC0A72EACBCBD0008DA38 /* Smart-Driver-AssistantTests */,
+				764DC0B12EACBCBD0008DA38 /* Smart-Driver-AssistantUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		764DC0942EACBCBC0008DA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764DC0A62EACBCBD0008DA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764DC0B02EACBCBD0008DA38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		764DC0922EACBCBC0008DA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764DC0A42EACBCBD0008DA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764DC0AE2EACBCBD0008DA38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		764DC0AA2EACBCBD0008DA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764DC0952EACBCBC0008DA38 /* Smart-Driver-Assistant */;
+			targetProxy = 764DC0A92EACBCBD0008DA38 /* PBXContainerItemProxy */;
+		};
+		764DC0B42EACBCBD0008DA38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 764DC0952EACBCBC0008DA38 /* Smart-Driver-Assistant */;
+			targetProxy = 764DC0B32EACBCBD0008DA38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		764DC0BA2EACBCBD0008DA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		764DC0BB2EACBCBD0008DA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		764DC0BD2EACBCBD0008DA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart-Driver-Assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = T8Q55B9HQF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Driver-Assistant/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msu.research.Smart-Driver-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		764DC0BE2EACBCBD0008DA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smart-Driver-Assistant/Preview Content\"";
+				DEVELOPMENT_TEAM = T8Q55B9HQF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Smart-Driver-Assistant/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msu.research.Smart-Driver-Assistant";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		764DC0C02EACBCBD0008DA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8Q55B9HQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msu.research.Smart-Driver-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart-Driver-Assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart-Driver-Assistant";
+			};
+			name = Debug;
+		};
+		764DC0C12EACBCBD0008DA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8Q55B9HQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msu.research.Smart-Driver-AssistantTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smart-Driver-Assistant.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Smart-Driver-Assistant";
+			};
+			name = Release;
+		};
+		764DC0C32EACBCBD0008DA38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8Q55B9HQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msu.research.Smart-Driver-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart-Driver-Assistant";
+			};
+			name = Debug;
+		};
+		764DC0C42EACBCBD0008DA38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8Q55B9HQF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "msu.research.Smart-Driver-AssistantUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Smart-Driver-Assistant";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		764DC0912EACBCBC0008DA38 /* Build configuration list for PBXProject "Smart-Driver-Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764DC0BA2EACBCBD0008DA38 /* Debug */,
+				764DC0BB2EACBCBD0008DA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764DC0BC2EACBCBD0008DA38 /* Build configuration list for PBXNativeTarget "Smart-Driver-Assistant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764DC0BD2EACBCBD0008DA38 /* Debug */,
+				764DC0BE2EACBCBD0008DA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764DC0BF2EACBCBD0008DA38 /* Build configuration list for PBXNativeTarget "Smart-Driver-AssistantTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764DC0C02EACBCBD0008DA38 /* Debug */,
+				764DC0C12EACBCBD0008DA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		764DC0C22EACBCBD0008DA38 /* Build configuration list for PBXNativeTarget "Smart-Driver-AssistantUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				764DC0C32EACBCBD0008DA38 /* Debug */,
+				764DC0C42EACBCBD0008DA38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 764DC08E2EACBCBC0008DA38 /* Project object */;
+}
