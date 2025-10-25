@@ -9,14 +9,10 @@ import SwiftUI
 import SwiftData
 
 @main
-struct YourAppNameApp: App {
-    @StateObject var locationManager = LocationManager()
-
+struct MyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environmentObject(locationManager)  // to pass it down
         }
     }
 }
-

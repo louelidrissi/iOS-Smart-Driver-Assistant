@@ -10,12 +10,18 @@
 import SwiftUI
 import SwiftData
 
-@main
 
 struct ContentView: View {
+    @StateObject private var viewModel = CombinedViewModel()
+    
     var body: some View {
-        Text("Tracking location and weather")
-            .padding()
+        VStack {
+            Text("Speed: \(viewModel.speed)")
+            Text("Road Type: \(viewModel.roadType.rawValue)")
+            Text("Time of Day: \(viewModel.timeOfDay)")
+            Text("Weather: \(viewModel.weatherCondition)")
+        }
+        .padding()
     }
 }
 
@@ -23,8 +29,4 @@ struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
     }
-}
-#Preview {
-    ContentView()
-     
 }
